@@ -9,6 +9,8 @@ Python Script to Tweet Stats of your RaspberryPi to a Twitter Account
 * CPU Load
 * Uptime since last Reboot
 
+You have to get OAuth Access to your Twitter Account (as a [https://dev.twitter.com/](developer)) and have to enter your keys to the Python script.
+
 ## Dependencies
 
 You need [Tweepy](https://github.com/tweepy/tweepy) to Tweet.
