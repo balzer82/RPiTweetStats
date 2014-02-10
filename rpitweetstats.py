@@ -59,7 +59,7 @@ temp = line.split('=')[1].split("'")[0]
 
 
 # Fire the Tweet
-message = '[Bot]: CPU ' + temp + '`C, ' + str('%.1f' %cpuPct) + '% Load. Uptime: ' + uptime
+message = '[Bot]: CPU ' + temp + unichr(176) + 'C, ' + str('%.1f' %cpuPct) + '% Load. Uptime: ' + uptime
 
 try:
      print 'Tweet: ' + message
